@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 656px;
+  border-radius: 20px;
+}
+
+.main-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.simpleTodo-item-container {
+  display: flex;
+  flex-direction: column;
+}
